@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="80.0" prefWidth="700.0" style="-fx-background-color: #009999;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="206.0" layoutY="36.0" text="QUẢN LÝ THÔNG TIN HỌC SINH" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutY="2.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Thông tin " textFill="WHITE" underline="true">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button fx:id="tf_st_array_class" layoutX="71.0" layoutY="2.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Xếp lớp" />
+            <Button fx:id="tf_st_hp" layoutX="133.0" layoutY="2.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Học phí" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="420.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="285.0" layoutY="5.0" text="Thông tin học sinh">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="31.0" text="Họ và tên" />
+            <Label layoutX="59.0" layoutY="105.0" text="Ngày sinh" />
+            <Label layoutX="406.0" layoutY="60.0" text="Giới tính" />
+            <Label layoutX="58.0" layoutY="69.0" text="Mã trẻ" />
+            <Label layoutX="360.0" layoutY="105.0" text="Ngày nhập học" />
+            <Label layoutX="62.0" layoutY="172.0" text="Lớp hiện tại" />
+            <Label layoutX="58.0" layoutY="140.0" text="Địa chỉ" />
+            <Label layoutX="285.0" layoutY="210.0" text="Thông tin phụ huynh">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="295.0" text="Số điện thoại" />
+            <Label layoutX="372.0" layoutY="252.0" text="Họ tên mẹ" />
+            <Label layoutX="66.0" layoutY="252.0" text="Họ tên bố" />
+            <Label layoutX="370.0" layoutY="294.0" prefHeight="18.0" prefWidth="72.0" text="Số điện thoại" />
+            <Label layoutX="65.0" layoutY="340.0" text="Nghề nghiệp" />
+            <Label layoutX="369.0" layoutY="339.0" prefHeight="18.0" prefWidth="74.0" text="Nghề nghiệp" />
+            <TextField fx:id="tf_stname" layoutX="138.0" layoutY="27.0" prefHeight="26.0" prefWidth="494.0" />
+            <TextField fx:id="tf_stid" layoutX="138.0" layoutY="64.0" prefHeight="26.0" prefWidth="165.0" />
+            <RadioButton fx:id="rb_stmale" layoutX="500.0" layoutY="60.0" mnemonicParsing="false" text="Nam" />
+            <RadioButton fx:id="rb_stfemale" layoutX="580.0" layoutY="60.0" mnemonicParsing="false" text="Nữ" />
+            <TextField fx:id="tf_stbird" layoutX="139.0" layoutY="101.0" prefHeight="26.0" prefWidth="163.0" />
+            <TextField layoutX="468.0" layoutY="101.0" prefHeight="26.0" prefWidth="165.0" />
+            <TextField fx:id="tf_stadd" layoutX="139.0" layoutY="135.0" prefHeight="26.0" prefWidth="491.0" />
+            <TextField fx:id="tf_stclass" layoutX="138.0" layoutY="168.0" />
+            <TextField fx:id="tf_stfa" layoutX="139.0" layoutY="248.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextField fx:id="tf_stfa_phone" layoutX="139.0" layoutY="290.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextField fx:id="tf_stfa_job" layoutX="141.0" layoutY="336.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextField fx:id="tf_stmo" layoutX="464.0" layoutY="247.0" prefHeight="26.0" prefWidth="165.0" />
+            <TextField fx:id="tf_stmo_phone" layoutX="464.0" layoutY="291.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextField fx:id="tf_stmo_job" layoutX="464.0" layoutY="337.0" prefHeight="26.0" prefWidth="167.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

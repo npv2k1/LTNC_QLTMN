@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="132.0" prefWidth="701.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="193.0" fitWidth="291.0" layoutX="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@OIP.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="172.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logoicon.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="182.0" fitWidth="246.0" layoutX="454.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@class_vin.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="350.0" prefWidth="701.0" BorderPane.alignment="CENTER">
+         <children>
+            <Hyperlink layoutX="141.0" layoutY="2.0" text="GIỚI THIỆU" />
+            <Hyperlink layoutX="233.0" layoutY="2.0" text="TUYỂN SINH" />
+            <Hyperlink layoutX="318.0" layoutY="2.0" text="TUYỂN DỤNG" />
+            <Hyperlink layoutX="408.0" layoutY="2.0" text="LIÊN HỆ" />
+            <Hyperlink layoutX="470.0" layoutY="2.0" text="ĐĂNG NHẬP" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
