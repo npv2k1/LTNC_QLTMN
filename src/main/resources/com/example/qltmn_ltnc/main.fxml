@@ -12,17 +12,17 @@
          <children>
             <ImageView fitHeight="193.0" fitWidth="291.0" layoutX="164.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@OIP.jpg" />
+                  <Image url="@../images/OIP.jpg" />
                </image>
             </ImageView>
             <ImageView fitHeight="172.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@logoicon.jpg" />
+                  <Image url="@../images/logoicon.jpg" />
                </image>
             </ImageView>
             <ImageView fitHeight="182.0" fitWidth="246.0" layoutX="454.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@class_vin.jpg" />
+                  <Image url="@../images/class_vin.jpg" />
                </image>
             </ImageView>
          </children>

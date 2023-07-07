@@ -28,7 +28,7 @@
             </Text>
             <ImageView fitHeight="253.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@vin.jpg" />
+                  <Image url="@../images/vin.jpg" />
                </image>
             </ImageView>
          </children>
