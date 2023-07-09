@@ -7,4 +7,5 @@ module com.example.qltmn_ltnc {
 
     opens com.example.qltmn_ltnc to javafx.fxml;
     exports com.example.qltmn_ltnc;
+    opens com.example.qltmn_ltnc.controllers to javafx.fxml;
 }

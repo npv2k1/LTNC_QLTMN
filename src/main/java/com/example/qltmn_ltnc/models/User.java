@@ -1,22 +1,23 @@
 package com.example.qltmn_ltnc.models;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 public class User {
-    private int user_id;
+    private int userId;
     private String username;
     private String password;
     private String phone;
     private String gender;
     private String address;
     private String name;
-    private LocalDate dob;
+    private Date dob;
 
     public User() {
     }
 
-    public User(int user_id, String username, String password, String phone, String gender, String address, String name, LocalDate dob) {
-        this.user_id = user_id;
+    public User(int user_id, String username, String password, String phone, String gender, String address, String name, Date dob) {
+        this.userId = user_id;
         this.username = username;
         this.password = password;
         this.phone = phone;
@@ -26,12 +27,12 @@ public class User {
         this.dob = dob;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getUsername() {
@@ -82,11 +83,11 @@ public class User {
         this.name = name;
     }
 
-    public LocalDate getDob() {
+    public Date getDob() {
         return dob;
     }
 
-    public void setDob(LocalDate dob) {
+    public void setDob(Date dob) {
         this.dob = dob;
     }
 }

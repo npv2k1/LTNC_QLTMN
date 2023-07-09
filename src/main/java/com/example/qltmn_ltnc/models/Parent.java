@@ -1,6 +1,6 @@
 package com.example.qltmn_ltnc.models;
 
-import java.time.LocalDate;
+import java.util.Date;
 
 public class Parent extends User{
     private int parent_id;
@@ -8,7 +8,7 @@ public class Parent extends User{
     public Parent() {
     }
 
-    public Parent(int user_id, String username, String password, String phone, String gender, String address, String name, LocalDate dob, int parent_id) {
+    public Parent(int user_id, String username, String password, String phone, String gender, String address, String name, Date dob, int parent_id) {
         super(user_id, username, password, phone, gender, address, name, dob);
         this.parent_id = parent_id;
     }

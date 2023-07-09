@@ -1,7 +1,7 @@
 package com.example.qltmn_ltnc.models;
 
 
-import java.time.LocalDate;
+import java.util.Date;
 
 public class Student extends User{
     private int student_id;
@@ -9,7 +9,7 @@ public class Student extends User{
     public Student() {
     }
 
-    public Student(int user_id, String username, String password, String phone, String gender, String address, String name, LocalDate dob, int student_id) {
+    public Student(int user_id, String username, String password, String phone, String gender, String address, String name, Date dob, int student_id) {
         super(user_id, username, password, phone, gender, address, name, dob);
         this.student_id = student_id;
     }
