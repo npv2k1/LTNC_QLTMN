@@ -1,40 +1,52 @@
 package com.example.qltmn_ltnc.models;
 
+import java.time.LocalDate;
+
 public class Classroom {
-    private int class_id;
-    private String class_name;
-    private int studens_num;
+    private int classroom_id;
+    private String name;
+    private int numberOfStudent;
+    private LocalDate year;
 
     public Classroom() {
     }
 
-    public Classroom(int class_id, String class_name, int studens_num) {
-        this.class_id = class_id;
-        this.class_name = class_name;
-        this.studens_num = studens_num;
+    public Classroom(int classroom_id, String name, int numberOfStudent, LocalDate year) {
+        this.classroom_id = classroom_id;
+        this.name = name;
+        this.numberOfStudent = numberOfStudent;
+        this.year = year;
     }
 
-    public int getClass_id() {
-        return class_id;
+    public int getClassroom_id() {
+        return classroom_id;
     }
 
-    public void setClass_id(int class_id) {
-        this.class_id = class_id;
+    public void setClassroom_id(int classroom_id) {
+        this.classroom_id = classroom_id;
     }
 
-    public String getClass_name() {
-        return class_name;
+    public String getName() {
+        return name;
     }
 
-    public void setClass_name(String class_name) {
-        this.class_name = class_name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getStudens_num() {
-        return studens_num;
+    public int getNumberOfStudent() {
+        return numberOfStudent;
     }
 
-    public void setStudens_num(int studens_num) {
-        this.studens_num = studens_num;
+    public void setNumberOfStudent(int numberOfStudent) {
+        this.numberOfStudent = numberOfStudent;
+    }
+
+    public LocalDate getYear() {
+        return year;
+    }
+
+    public void setYear(LocalDate year) {
+        this.year = year;
     }
 }
