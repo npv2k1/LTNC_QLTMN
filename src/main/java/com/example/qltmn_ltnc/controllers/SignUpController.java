@@ -44,7 +44,7 @@ public class SignUpController implements Initializable {
 
         //Định dạng lại dob
         LocalDate myDob = dp_dob.getValue();
-        String myFormattedDob = myDob.format(DateTimeFormatter.ofPattern("dd-MM-yyyy"));
+        String myFormattedDob = myDob.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 
         //Thao tác với sign up button
         button_signup.setOnAction(new EventHandler<ActionEvent>() {

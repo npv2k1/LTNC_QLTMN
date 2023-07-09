@@ -2,6 +2,7 @@ module com.example.qltmn_ltnc {
 
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
     opens com.example.qltmn_ltnc to javafx.fxml;
